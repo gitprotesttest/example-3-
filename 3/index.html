@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista obecności</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css"> <!-- link do pliku CSS -->
+</head>
+<body>
+	<h1>Lista obecności</h1>
+	<table id="attendance-list">
+		<thead>
+			<tr>
+				<th>Imię i nazwisko</th>
+				<th>Obecność</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Jan Kowalski</td>
+				<td><input type="checkbox" id="jan-kowalski" /></td>
+			</tr>
+			<tr>
+				<td>Maria Nowak</td>
+				<td><input type="checkbox" id="maria-nowak" /></td>
+			</tr>
+			<tr>
+				<td>Piotr Wiśniewski</td>
+				<td><input type="checkbox" id="piotr-wisniewski" /></td>
+			</tr>
+			<tr>
+				<td>Katarzyna Zielińska</td>
+				<td><input type="checkbox" id="katarzyna-zielinska" /></td>
+			</tr>
+			<!-- dodaj więcej uczniów -->
+		</tbody>
+	</table>
+	<button id="save-attendance">Zapisz obecność</button>
+
+	<script src="script.js"></script> <!-- link do pliku JS -->
+</body>
+</html>
